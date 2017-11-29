@@ -8,6 +8,7 @@ target 'FirebaseUIAuthSample' do
   pod 'Firebase/Core'
 
   pod 'FirebaseUI/Auth'
+  pod 'FirebaseUI/Google'
 
   # Pods for FirebaseUIAuthSample
 

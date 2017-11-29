@@ -9,11 +9,16 @@
 import UIKit
 import Firebase
 import FirebaseAuthUI
+import FirebaseGoogleAuthUI
+
 
 class ViewController: UIViewController {
     lazy var authUI: FUIAuth = {
         let authUI = FUIAuth.defaultAuthUI()
         authUI?.delegate = self
+        authUI?.providers = [
+            FUIGoogleAuth()
+        ]
 
         return authUI!
     }()
