@@ -7,19 +7,32 @@
 //
 
 import UIKit
+import Firebase
+import FirebaseAuthUI
 
 class ViewController: UIViewController {
+    lazy var authUI: FUIAuth = {
+        let authUI = FUIAuth.defaultAuthUI()
+        authUI?.delegate = self
+
+        return authUI!
+    }()
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    
+    @IBAction func didTapSiginButton(_ sender: Any) {
+        present(authUI.authViewController(), animated: true, completion: nil)
     }
+}
 
 
+extension ViewController: FUIAuthDelegate {
+    func authUI(_ authUI: FUIAuth, didSignInWith user: FIRUser?, error: Error?) {
+        print("succeed in signin")
+    }
 }
 

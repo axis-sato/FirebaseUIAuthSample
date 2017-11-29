@@ -12,6 +12,7 @@
 		59334F381FCE749E00BB2BCC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59334F361FCE749E00BB2BCC /* Main.storyboard */; };
 		59334F3A1FCE749E00BB2BCC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 59334F391FCE749E00BB2BCC /* Assets.xcassets */; };
 		59334F3D1FCE749E00BB2BCC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59334F3B1FCE749E00BB2BCC /* LaunchScreen.storyboard */; };
+		59D7A6651FCE79010090D843 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 59D7A6641FCE79010090D843 /* GoogleService-Info.plist */; };
 		9A9872C3519062D880581D2C /* Pods_FirebaseUIAuthSample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E9DED8296B3C53FB9D5A88A /* Pods_FirebaseUIAuthSample.framework */; };
 /* End PBXBuildFile section */
 
@@ -25,6 +26,7 @@
 		59334F391FCE749E00BB2BCC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		59334F3C1FCE749E00BB2BCC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		59334F3E1FCE749E00BB2BCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		59D7A6641FCE79010090D843 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		6E9DED8296B3C53FB9D5A88A /* Pods_FirebaseUIAuthSample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FirebaseUIAuthSample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -76,6 +78,7 @@
 				59334F391FCE749E00BB2BCC /* Assets.xcassets */,
 				59334F3B1FCE749E00BB2BCC /* LaunchScreen.storyboard */,
 				59334F3E1FCE749E00BB2BCC /* Info.plist */,
+				59D7A6641FCE79010090D843 /* GoogleService-Info.plist */,
 			);
 			path = FirebaseUIAuthSample;
 			sourceTree = "<group>";
@@ -151,6 +154,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				59334F3D1FCE749E00BB2BCC /* LaunchScreen.storyboard in Resources */,
+				59D7A6651FCE79010090D843 /* GoogleService-Info.plist in Resources */,
 				59334F3A1FCE749E00BB2BCC /* Assets.xcassets in Resources */,
 				59334F381FCE749E00BB2BCC /* Main.storyboard in Resources */,
 			);
