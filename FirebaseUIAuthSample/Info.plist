@@ -24,6 +24,7 @@
 			<key>CFBundleURLSchemes</key>
 			<array>
 				<string>com.googleusercontent.apps.111458959595-l48snqvq1di1tecipdbshsec9bnd5kb9</string>
+				<string>twitterkit-$(TWITTER_API_KEY)</string>
 			</array>
 		</dict>
 	</array>

@@ -10,6 +10,7 @@ import UIKit
 import Firebase
 import FirebaseAuthUI
 import FirebaseGoogleAuthUI
+import FirebaseTwitterAuthUI
 
 
 class ViewController: UIViewController {
@@ -17,7 +18,8 @@ class ViewController: UIViewController {
         let authUI = FUIAuth.defaultAuthUI()
         authUI?.delegate = self
         authUI?.providers = [
-            FUIGoogleAuth()
+            FUIGoogleAuth(),
+            FUITwitterAuth()
         ]
 
         return authUI!

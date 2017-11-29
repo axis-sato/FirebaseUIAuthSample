@@ -9,6 +9,7 @@
 import UIKit
 import Firebase
 import FirebaseAuthUI
+import TwitterKit
 
 
 @UIApplicationMain
@@ -21,6 +22,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Override point for customization after application launch.
         
         FIRApp.configure()
+        
+        Twitter.sharedInstance().start(
+            withConsumerKey: Env.twitterAPIKey,
+            consumerSecret: Env.twitterAPISecret
+        )
         
         return true
     }
